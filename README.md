@@ -8,16 +8,23 @@ Estimated image size is 10MB, whereas the same app built in Python would be ~100
 
 ## Prerequisites
 
-- Docker
-- kind
-- kubectl
-- Helm 3
+- [Docker](https://docs.docker.com/get-docker/)
+- [kind](https://kind.sigs.k8s.io/docs/user/quick-start/#installation)
+- [kubectl](https://kubernetes.io/docs/tasks/tools/)
+- [Helm 3](https://helm.sh/docs/intro/install/)
 
 ## Docker Image
 
 Published at: [dreamliner/internal-service](https://hub.docker.com/r/dreamliner/internal-service)
 
 ## Setup instructions
+
+### Clone the repository
+
+```bash
+git clone https://github.com/dreamliner/internal-service.git
+cd internal-service
+```
 
 ### Build the image locally
 
