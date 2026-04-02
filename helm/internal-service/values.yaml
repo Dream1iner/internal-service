@@ -1,0 +1,25 @@
+hub: docker.io
+image: dreamliner/internal-service
+tag: latest
+
+prod: false
+
+replicaCount: 3
+
+env: {}
+
+resources:
+  requests:
+    cpu: 50m
+    memory: 64Mi
+  limits:
+    cpu: 200m
+    memory: 128Mi
+
+autoscaling:
+  minReplicas: 3
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 70
+
+service:
+  port: 8080
