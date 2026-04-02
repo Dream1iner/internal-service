@@ -64,11 +64,18 @@ helm install prod ./helm/internal-service -f ./helm/internal-service/values-prod
 kubectl get pods -o wide
 ```
 
-### Test the service
+### Test dev
 
 ```bash
 kubectl port-forward svc/dev-internal-service 8080:8080
 curl localhost:8080
+```
+
+### Test prod
+
+```bash
+kubectl port-forward svc/prod-internal-service 8081:8080
+curl localhost:8081
 ```
 
 ### Uninstall
