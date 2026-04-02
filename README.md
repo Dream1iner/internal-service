@@ -2,7 +2,7 @@
 
 Simple containerized web app packaged with Helm Chart for GitOps friendly Kubernetes deployment.
 
-Web app is built using Go and serves a simple JSON response showing all the environment variables.
+Web app is built using Go and serves a web page and JSON API showing all the environment variables.
 Language choice in a particular case justified by the image size and build time. 
 Estimated image size is 10MB, whereas the same app built in Python would be ~100MB + overhead of the runtime.
 
