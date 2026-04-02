@@ -22,7 +22,7 @@ Published at: [dreamliner/internal-service](https://hub.docker.com/r/dreamliner/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/dreamliner/internal-service.git
+git clone https://github.com/Dream1iner/internal-service.git
 cd internal-service
 ```
 
